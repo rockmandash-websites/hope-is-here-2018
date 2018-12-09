@@ -13,6 +13,18 @@ const rotate = keyframes`
   }
 `;
 
+const shine = keyframes`
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+`;
+
 const Container = styled.div`
   position: absolute;
   top: 0;
@@ -28,7 +40,7 @@ const Image = styled.img`
   top: 50%;
   left: 50%;
   height: auto;
-  animation: ${rotate} 180s linear infinite;
+  animation: ${rotate} 180s linear infinite, ${shine} 10s linear infinite;
 `;
 
 const BgAnimation = () => {
