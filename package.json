@@ -2,9 +2,13 @@
   "name": "hope-is-here-2018",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hope-is-here-2018.firebaseapp.com",
   "dependencies": {
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "@emotion/core": "^10.0.4",
+    "@emotion/styled": "^10.0.4",
+    "core-js": "^2.6.0",
+    "react": "^16.7.0-alpha.2",
+    "react-dom": "^16.7.0-alpha.2",
     "react-scripts": "2.1.1"
   },
   "scripts": {
