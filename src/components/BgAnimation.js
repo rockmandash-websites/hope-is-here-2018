@@ -1,5 +1,5 @@
 import React, { memo } from 'react';
-import styled, { css } from 'react-emotion/macro';
+import styled from '@emotion/styled/macro';
 
 const Container = styled.div`
   position: relative;
