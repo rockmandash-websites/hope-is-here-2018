@@ -1,44 +1,157 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 問題區
 
-## Available Scripts
+1. 群組一 + 1
+2. 群組二 + 10
+3. 群組三 + 100
 
-In the project directory, you can run:
+# 重複可能
 
-### `npm start`
+1. 221 從群組一和二當中再選一個吧！
+2. 212 從群組一和三當中再選一個吧！
+3. 122 從群組二和三當中再選一個吧！
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 答案可能
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+1. 群組一答案可能：113, 23, 203, 14, 104, 5
+2. 群組二答案可能：131, 32, 230, 41, 140, 50
+3. 群組三答案可能：311, 302, 320, 410, 401, 500
 
-### `npm test`
+# 群組一問題
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. The spirit of a man is constructed out of his choices.
+   一個人的心靈是建構於他的選擇。
 
-### `npm run build`
+2. Life is a miserable thing. I have decided to spend my life thinking about it.
+   生命是一件悲慘的事情。我已決定要花上一生的時間思考它。
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. To love means to be actively concerned for the life and the growth of another.
+   相愛的意思是積極的關心另一伴的生命和成長。
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+4. Mature love is loving, not being loved.
+   成熟的愛是主動的、不停息的愛，而非被動的接受愛。
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. If we climb high enough, we will reach a height from which tragedy ceases to look tragic.
+   如果我們能爬得夠高，我們會到達一個高度，在那裏悲劇不再看起來那麼慘痛。
 
-### `npm run eject`
+# 群組二問題
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Courage is the basic virtue for everyone so long as he continues to grow, to move ahead.
+   勇氣是每個人最根本的美德，只要這個人仍在成長向前。
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. It is an ironic habit of human beings to run faster when they have lost their way.
+   對於人類來說這真是一個諷刺的行為：當他們迷失方向的時候總是跑得更快。
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+3. Many people suffer from the fear of finding oneself alone, and so they don't find themselves at all.
+   許多人害怕於發現自己孤身一人，於是他們乾脆不找到自己。
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+4. The opposite of courage in our society is not cowardice, it's conformity.
+   在我們的社會中，勇氣的相反並不是懦弱，而是盲從。
 
-## Learn More
+5. Hate is not the opposite of love; apathy is.
+   憎恨不是愛的相反，冷漠才是。
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 群組三問題
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Everything can be taken from a person but one thing: the last of the human freedoms－－
+   to choose one's attitudes in any given set of circumstances, to choose one's own way.
+   任何事都能夠被奪走，唯有人類最終極的自由是無法被奪走的－－這自由使人選擇對環境的態度、
+   選擇自己行動的方式
+
+2. Those who have a 'why' to live, can bear with almost any 'how'.
+   有生存理由的人幾乎能忍受任何苦難的原因或生存的方式
+
+3. But there was no need to be ashamed of tears, for tears bore witness that a man had the greatest of courage, the courage to suffer.
+   對於眼淚不必感到羞愧，眼淚見證一個人極大的勇氣能夠承受苦痛
+
+4. The one thing you can't take away from me is the way I choose to respond to what you do to me. The last of one's freedoms is to choose one's attitude in any given circumstance.
+   你無法奪走的唯一一件事，就是我有選擇如何回應你所做所為的自由
+
+5. Life is never made unbearable by circumstances, but only by lack of meaning and purpose.
+   生命從來不會因為環境事件而變得難以承受，只有因為意義和目的的缺乏
+
+# 群組一結果
+
+Irvin Yalom(1931-)
+
+存在主義治療（Existential Therapy）的代表人物之一 Irvin Yalom 提出生命中有四大終極議題（four ultimate concerns）：
+無可避免的死亡 （Inevitable death）：不管一個人有多特別，死亡是每個人的終點。這也意味著我們終將失去愛的人。孤獨 （Isolation）：即使被朋友，家人，同事圍繞著，也沒有人能比我們還了解自己的感受和想法，也沒有人能幫我們面對生命中的死亡及失去。無意義（Meaninglessness）：生命是個充滿未知的過程。這些未知容易讓人感到迷失，因此懷疑生命的目的及價值是什麼。自由與責任 （Freedom & responsibility）：我們都有選擇的自由，但正因有這樣的自由，我們也必須為自己的選擇和生活負責任。
+這些是恐懼和空虛的來源，因此許多和這四點緊密相連的人生轉折就容易讓人覺得迷失，生命沒有意義或沒有希望
+
+# 群組二答案
+
+Rollo May(1909-1994)
+
+羅洛·梅受美國人本主義影響，並且對使存在主義心理學和其他哲學調和感興趣，特別是對弗洛伊德的。
+羅洛·梅認為奧托·蘭克（Otto_Rank，1884-1939）是存在主義療法最重要的先驅。在他去世前不久，羅洛·梅為由羅伯特·克雷默編輯的蘭克美國演講集作了序。羅洛·梅寫道「我一直認為奧托·蘭克是弗洛伊德領域中偉大且未得承認的天才」
+羅洛·梅在使用一些傳統的存在主義的術語上相比其他人的方式略微不同，並且他為傳統存在主義的概念發明了新的詞彙給予。例如，命運，"thrownness" 聯合"fallenness"—被決定給予我們的我們生命的一部分，以創造我們的生命為目的。他總是用「勇敢」來表示抵制焦慮。
+
+# 群組三答案
+
+Viktor Frankl(1905-1997)
+
+曾被納粹迫害關進集中營，家人均在營裡過世
+即使在最糟糕的環境，我們仍能保有些微的精神自由與心靈獨立
+發展意義治療，透過意義來幫助當事人發現生命的意義、體驗真實的存在
+
+意義治療的理論對人提出十點獨特的看法：
+人是一個個體，人自成一個單位，因為人無法被分割。
+人不只是個體，更是個整體。根據意義治療法，人無法被分割或由其部份之總和所建立。
+每一個人都是絕對新的個體。兩個人存在於世上，精神上可以非常親近，但卻無法合併。
+人是靈性的。有機體的功能對人而言只是做為一種工具，幫助人去完成生命中等待他去完成的任務。
+人是動態存在的，人存在的每個當下呈現的是作決定的機會，這牽涉到作決定的自由與相對而來的責任。
+人是自我引導的，他認為人的靈性是凌駕於弗洛伊德的超我之上，人並非由本我所驅動的自我（ego），而是自我（self）所引導的。正因為如此，人才能對其他人去愛與被愛，了解對方而不是把人當作事物一樣利用和操控。
+人是聯合的整體。在意義治療法的觀點，人是三個向度存在的整體，由肉體、心理、靈性所組成的實體。
+人是動態的。人並不是處於平衡穩定的狀態，總是從現狀中不斷努力朝向理想的狀態。無從決定良心要告訴我們的是什麼，我們只能決定該如何對良心做出響應與行動。
+動物不是人。動物無法理解承受苦難，而人可以將所承受的苦難歸因於自然因素或任何我們為某一目的把它強加於任何原因之下。
+人只有在超越自身時才能理解自己。人之所以為人是因為能超越自身的侷限，使自身的存在充滿意義。
+在他的名著《活出意義來》裡，他講了一個他在集中營裡的經驗：他與一群俘虜被迫跋涉到某地鋪鐵軌，其中一位俘虜提到不知道他們妻子的命運如何，這讓他想到他自己新婚的妻子。那一瞬間他領悟到雖然他不知道他妻子的下落，但是她「存在」在他的心裡。他寫下：
+「人類可以經由愛而得到救贖。我了解到一個在這世界上一無所有的人，仍有可能在暝想他所愛的人時嘗到幸福的感覺，即使是極短暫的一霎那。」
+——《活出意義來》，1972 年
+
+節目單(角色與主題介紹)
+
+#00
+
+希望是一個無形的存在，卻是具體地影響這個世界，你能回答希望是什麼，但下一秒或許你的希望又變成了另一個答案。
+
+這不是任何地評斷你的希望，而是希望是真實地卻也如此地被我們需要著，我們有著各種的希望，好讓我們能夠在這個疲勞的壓力中得以繼續向前。
+
+今天我們想帶你來體會，希望的源頭，也就是耶穌。也許你不太認識他，也或者他早已是你心裡信仰的 ICON，無論如何我想要說，他也是個人，是個如同你我的人。
+
+邀請你一同進入他的世界，他曾經出現的那個時候。
+也許，他會改變你的對於希望的認知
+
+2018/12/21 19:30
+2018/12/23 10:30
+
+台北市中山區南京東路二段 139 號 B1（富邦南京大樓）
+
+#01
+
+朱利葉 Julia ：
+盼望著希望來臨
+羅馬人，年方 26 歲，是被派駐在伯利恆的初階官員，在這一次的戶口普查任務中擔任與民眾接觸的第一線角色，寫得一手工整的字，但唯一在這裡困擾他的，是這裡的人總是操著他聽不太懂的口音說著希臘語，或者是說其實是他操著奇怪的口音說著這裡人聽不懂的希臘語。
+＃生命是一件悲慘的事情，我已經決定要花上一輩子的時間來思考它
+帶著厭惡觀點來對待這些來自鄉下的猶太人，當然也對於自己的際遇感到憤怒，當同鄉同學們各自靠著家族勢力在羅馬城中升官發達時，自己卻只能在窮鄉僻壤中來執行這一個戶口普查的任務，上有長官但不管事，下沒有任何比他低階的官員，他是整個部門中最菜的菜鳥，當然也就會是那個專門執行困難任務的不二人選。
+在整個任務執行過程中，意外地聽到猶太人的傳說，不尋常的星象，奇怪的傳言。除了這些，他卻由衷的相信生命的困難值，遠超過他所能負荷的，雖然是稅吏等級，但他卻不知足地抱怨與懷疑自己的人生。同時他也觀察到了整個猶太地區人民的貧苦生活，使他時常地思考人生存在的目的。
+＃絕望是自我覺察必須附上的代價。生命深處的本質，總是有絕望
+
+#02
+
+客店約翰 Hotel John ：
+相信這就是希望
+伯利恆人，因為年輕時有被徵招到大城市裡建造新式希臘化羅馬建築，回鄉後就開了這件客店，其實也不是什麼龍門客棧歡迎光臨，純粹就是蓋了一間有比較多客房的房子，可以招待親友們與過路客，本身還是老老實實地在栽種一些蔬果稻作，簡單的自給自足。就算如此，為了應付羅馬的稅制，他與太太仍然是要十分努力地拓展財源。
+今年聽到了要戶口普查，看來這些預備的客房是有用的了，他不自覺得想到了以利沙先知的神蹟：請婦人預備空油瓶裝油。客房約翰從心裡感謝著上主，預備的空房間真的就是上主的恩賜！他也同時自然地去預備了更多的週邊配件，像是給馬與驢休息的空間之類的，並且除了原先就在家裡一起工作的員工之外，還多找了幾個人在這段期間來一起打理與幫忙。
+＃我們社會中，勇氣的相反不是懦弱，而是盲從
+帶著喜樂的心在看待即將發生的每一件事，雖然常常税也繳不出，或者是其實沒人來住他的客房，但他深信他的主必定會賜福給他，他知道遵行神的律法的，那人便為有福，他緊繫妥拉所啟示的神的樣子，相信自己必定會蒙受祝福。
+在這一次的普查當中，客房約翰全家帶著辦喜事心情來面對每一個客人，因為是第一次的戶口普查，人流極大，他也不只提供歇腳的地方，更是挪出空間販賣自己與鄰居們的農產品，當然是有抽成的，他同時也常常為著自己有這麼棒的商業頭腦向神獻上感恩！
+＃憎恨不是愛的相反，冷漠才是
+
+#03
+
+猶大 Judah ：
+不期待，希望就不落空
+加利利人，務農人家長大的孩子，在家中排行最小，有一手非常巧妙的栽種工夫，幾乎是能夠與農作物對話的細膩與高超，但因為家中的人均被徵招去建立大城市，自己家的田就在財主們的精心安排裡被處理掉。只能夠孤單流浪到伯利恆。好險有客房約翰的救命之恩，收留了他成為客店的員工。但命運的巨輪似乎不想放過他，在這戶口普查的期間裡，輾轉從旅人的口中得知他們家的親人全部都已經離開這個世界，時常只能夠望著星空，說服自己接受這命運的安排。
+＃人無法追求快樂，它只能隨遇自然發生
+出場就是悲傷的心情，剛聽聞親人們都過世的消息，讓他都無力在老闆交辦的事情上面。偏偏這時節又來了許多客人需要招呼。弄破了茶壺，打翻了湯，開錯客房，全部都接踵而來。沒一件事能夠辦好，想必一頓罵是躲不了。人生存在的意義是什麼？猶大想不透，也無法想了。聽說今天老闆要他再去多準備一個馬槽，於是他只好把之前預備的一些木材與石頭搬出來，搭起一個新的馬槽。
+＃如果生命總是有意義，那苦痛也有其意義
