@@ -17,7 +17,7 @@ const PrimaryButton = ({ children, ...rest }) => {
                 border: 1px solid white;
                 background-color: rgba(255, 255, 255, 0.1);
                 width: 90%;
-                max-width: 300;
+                max-width: 300px;
                 margin: 0 auto 15px;
               }
             `,
