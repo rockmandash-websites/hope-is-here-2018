@@ -6,7 +6,7 @@ const Container = styled.svg`
   position: relative;
   width: 100%;
   max-height: 70vh;
-  margin: 20px auto 0;
+  margin: 20px auto 10px;
   opacity: 0;
 `;
 
