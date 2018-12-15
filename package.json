@@ -11,6 +11,7 @@
     "@typeform/embed": "^0.5.12",
     "core-js": "^2.6.0",
     "gsap": "^2.0.2",
+    "mdx.macro": "^0.2.7",
     "react": "^16.7.0-alpha.2",
     "react-dom": "^16.7.0-alpha.2",
     "react-scripts": "2.1.1",
