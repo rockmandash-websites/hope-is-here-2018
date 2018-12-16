@@ -5,6 +5,7 @@ import Intro from 'components/Intro';
 import Quiz from 'components/Quiz';
 import Rundown from 'components/Rundown';
 import Pageview from 'components/Pageview';
+import Header from 'components/Header';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <GlobalStyle />
       <Pageview />
       <BgAnimation />
+      <Header />
       <Intro />
       <Quiz />
       <Rundown />

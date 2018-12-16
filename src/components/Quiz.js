@@ -2,11 +2,13 @@ import React, { memo, useRef, useEffect } from 'react';
 import styled from '@emotion/styled/macro';
 import { Match } from '@reach/router';
 import { makeWidget } from '@typeform/embed';
+import { HeaderHeight } from 'sharedStyles';
 
 const Container = styled.div`
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - ${HeaderHeight}px);
+  margin: ${HeaderHeight}px 0 0 0;
 `;
 
 const Quiz = () => {
