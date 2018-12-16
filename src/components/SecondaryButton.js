@@ -11,8 +11,8 @@ const SecondaryButton = ({ children, ...rest }) => {
           classes={{
             root: css`
               &&& {
-                display: block;
                 color: white;
+                height: 100%;
               }
             `,
             label: css`
@@ -20,6 +20,7 @@ const SecondaryButton = ({ children, ...rest }) => {
                 font-size: 1.1rem;
                 font-weight: 300;
                 letter-spacing: 1px;
+                font-weight: 600;
               }
             `
           }}

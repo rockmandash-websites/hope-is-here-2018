@@ -1,7 +1,6 @@
-import React, { memo, useRef, useEffect } from 'react';
+import React, { memo } from 'react';
 import styled from '@emotion/styled/macro';
 import { Match } from '@reach/router';
-import { makeWidget } from '@typeform/embed';
 import { HeaderHeight } from 'sharedStyles';
 
 const Container = styled.div`
@@ -12,28 +11,19 @@ const Container = styled.div`
 `;
 
 const Quiz = () => {
-  const ContainerRef = useRef(null);
-
-  useEffect(() => {
-    makeWidget(
-      ContainerRef.current,
-      'https://josephwang.typeform.com/to/DV5pc8',
-      {
-        opacity: 0,
-        hideScrollbars: true,
-        hideFooter: true,
-        hideHeaders: true
-      }
-    );
-  });
-
   return (
     <Match path="/quiz">
       {({ match }) => (
-        <Container
-          ref={ContainerRef}
-          style={{ display: match ? 'block' : 'none' }}
-        />
+        <Container style={{ display: match ? 'block' : 'none' }}>
+          <div
+            className="typeform-widget"
+            data-url="https://josephwang.typeform.com/to/DV5pc8"
+            data-transparency="100"
+            data-hide-headers="true"
+            data-hide-footer="true"
+            style={{ width: '100%', height: '100%' }}
+          />
+        </Container>
       )}
     </Match>
   );

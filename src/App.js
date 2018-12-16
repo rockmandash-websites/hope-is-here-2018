@@ -13,10 +13,10 @@ const App = () => {
       <GlobalStyle />
       <Pageview />
       <BgAnimation />
-      <Header />
       <Intro />
       <Quiz />
       <Rundown />
+      <Header />
     </>
   );
 };

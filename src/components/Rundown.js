@@ -11,7 +11,6 @@ const Container = styled.div`
   position: relative;
   color: white;
   font-size: 1rem;
-  padding: 32px 16px;
   max-width: 900px;
   width: 100%;
   height: calc(100vh - ${HeaderHeight}px);
@@ -88,6 +87,16 @@ const Container = styled.div`
     width: 100%;
     height: auto;
   }
+
+  overflow: hidden;
+`;
+
+const InnerContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  padding: 32px 16px;
+
+  overflow: scroll;
 `;
 
 const Rundown = () => {
@@ -96,9 +105,11 @@ const Rundown = () => {
       {({ match }) =>
         match && (
           <Container>
-            <React.Suspense fallback={<div>Loading...</div>}>
-              <RundownMD />
-            </React.Suspense>
+            <InnerContainer>
+              <React.Suspense fallback={<div>Loading...</div>}>
+                <RundownMD />
+              </React.Suspense>
+            </InnerContainer>
           </Container>
         )
       }

@@ -4,6 +4,8 @@ import { HeaderHeight } from 'sharedStyles';
 import { Location } from '@reach/router';
 import SecondaryButton from './SecondaryButton';
 import { navigate } from '@reach/router';
+import ChevronLeft from '@material-ui/icons/ChevronLeft';
+import ChevronRight from '@material-ui/icons/ChevronRight';
 
 const Container = styled.div`
   position: fixed;
@@ -39,14 +41,19 @@ const Header = () => {
 
         return (
           <Container>
-            <SecondaryButton onClick={handleHomeClick}>回首頁</SecondaryButton>
+            <SecondaryButton onClick={handleHomeClick}>
+              <ChevronLeft />
+              回首頁
+            </SecondaryButton>
             {isQuizPage ? (
               <SecondaryButton onClick={handleRundownClick}>
+                <ChevronRight />
                 看節目流程
               </SecondaryButton>
             ) : (
               <SecondaryButton onClick={handleQuizClick}>
                 玩節目測驗
+                <ChevronRight />
               </SecondaryButton>
             )}
           </Container>
