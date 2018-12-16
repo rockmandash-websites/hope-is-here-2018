@@ -2,7 +2,7 @@
   "name": "hope-is-here-2018",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hope-is-here-2018.com",
+  "homepage": "https://hope-is-here-2018.firebaseapp.com",
   "dependencies": {
     "@emotion/core": "^10.0.5",
     "@emotion/styled": "^10.0.5",
