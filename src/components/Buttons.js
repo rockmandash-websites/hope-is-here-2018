@@ -28,8 +28,8 @@ const Buttons = () => {
   };
   return (
     <Container>
-      <PrimaryButton onClick={handleQuizClick}>玩節目測驗</PrimaryButton>
-      <PrimaryButton onClick={handleRundownClick}>去看節目單</PrimaryButton>
+      <PrimaryButton onClick={handleQuizClick}>你的希望哲學</PrimaryButton>
+      <PrimaryButton onClick={handleRundownClick}>節目介紹</PrimaryButton>
     </Container>
   );
 };

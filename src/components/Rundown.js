@@ -16,13 +16,13 @@ const Container = styled.div`
   height: calc(100vh - ${HeaderHeight}px);
   margin: ${HeaderHeight}px auto 0;
   @media (min-width: 375px) {
-    font-size: 1.1rem;
+    font-size: .8rem;
   }
   @media (min-width: 425px) {
-    font-size: 1.2rem;
+    font-size: .8rem;
   }
   @media (min-width: 768px) {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   & h1 {
@@ -47,7 +47,23 @@ const Container = styled.div`
     letter-spacing: 1px;
     text-align: justify;
     margin: 1em 0;
+    
   }
+  .rundownTitle {
+      text-align: center;
+
+    p{
+      display: inline-block;
+      margin: 0;
+      text-align: center;
+      font-weight: bold;
+      font-size: 2rem;
+      border-right: solid 5px;
+      border-left: solid 5px;
+      padding: 0 1rem;
+    }
+  }
+
   & hr {
     margin: 2em 0;
     height: 6px;
@@ -87,7 +103,7 @@ const Container = styled.div`
     width: 100%;
     height: auto;
   }
-
+  
   overflow: hidden;
 `;
 

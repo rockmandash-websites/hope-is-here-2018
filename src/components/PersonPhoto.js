@@ -3,12 +3,10 @@ import styled from '@emotion/styled/macro';
 
 const Container = styled.div`
   position: relative;
-  @media (min-width: 768px) {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
-  }
 `;
 
 const Text = styled.h3`
@@ -24,6 +22,9 @@ const Text = styled.h3`
 const Image = styled.img`
   && {
     @media (min-width: 768px) {
+      width: 40%;
+    }    
+    @media (min-width: 375px) {
       width: 40%;
     }
   }

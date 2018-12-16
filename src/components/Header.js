@@ -48,11 +48,11 @@ const Header = () => {
             {isQuizPage ? (
               <SecondaryButton onClick={handleRundownClick}>
                 <ChevronRight />
-                看節目流程
+                節目介紹
               </SecondaryButton>
             ) : (
               <SecondaryButton onClick={handleQuizClick}>
-                玩節目測驗
+                你的希望哲學
                 <ChevronRight />
               </SecondaryButton>
             )}
